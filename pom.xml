@@ -41,5 +41,11 @@
 
 	<dependencies>
 
+		<dependency>
+			<groupId>kr.co.inger</groupId>
+			<artifactId>jhyun-jsptags</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 </project>
