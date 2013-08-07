@@ -8,7 +8,9 @@
 <html>
     <body>
     	<c:forEach begin="1" end="5" var="i">
-    		<h1>Hi!      <c:out  value="${i}"/></h1>
+    		<jhyun:eval-only-once key="hi-block">
+    			<h1>Hi!      <c:out  value="${i}"/></h1>
+    		</jhyun:eval-only-once>
     	</c:forEach>
     </body>
 </html>

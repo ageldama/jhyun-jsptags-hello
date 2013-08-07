@@ -8,6 +8,7 @@
     <jsp-config>
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
+            <!-- NOTE: for Jetty Servlet Container. -->
             <el-ignored>false</el-ignored>
             <scripting-invalid>false</scripting-invalid>
         </jsp-property-group>
