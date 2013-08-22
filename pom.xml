@@ -31,33 +31,6 @@
 			<name>inger.co.kr public</name>
 			<url>http://nexus.inger.co.kr/content/groups/public/</url>
 			<layout>default</layout>
-		</repository>	
-		<!-- jboss repos. -->
-		<repository>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-				<checksumPolicy>warn</checksumPolicy>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-				<updatePolicy>never</updatePolicy>
-				<checksumPolicy>fail</checksumPolicy>
-			</snapshots>
-			<id>jbossPublic</id>
-			<url>http://repository.jboss.org/nexus/content/groups/public</url>
-		</repository>
-		<!-- javax.cache -->
-		<repository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
 		</repository>						
 	</repositories>
 
@@ -110,21 +83,7 @@
 			<groupId>kr.co.inger</groupId>
 			<artifactId>jhyun-jsptags</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.infinispan</groupId>
-			<artifactId>infinispan-jcache</artifactId>
-			<version>5.3.0.Final</version>
-		</dependency>
-		
-		<!-- cache -->
-		<dependency>
-			<groupId>javax.cache</groupId>
-			<artifactId>cache-api</artifactId>
-			<version>0.9</version>
-			<scope>provided</scope>
-		</dependency>		
+		</dependency>	
 
 
 	</dependencies>
